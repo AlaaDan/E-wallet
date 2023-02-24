@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root {
+  --bitcoin-orange: #FFAE34;
+  --ninja-black: #222222;
+  --block_chain-purple: #8B58F9;
+  --evil_corp-red: #F33355;
+}
+
+body {
+  background: #F8AE4E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,20 @@
+.app__cardstack {
+    position: relative;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    
+
+    .app__card {
+        position: absolute;
+        cursor: pointer;
+        width: 100%;
+        transition: all 0.2s ease-in-out;
+        border: 1px solid #FFFFFF;
+
+        &:hover {
+            transform: translateY(-16px) ;
+            box-shadow: 0 0 0 transparent inset;
+            border: 1px solid #FFFFFF;
+        }
+    }
+}
